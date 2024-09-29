@@ -1,27 +1,36 @@
-# AngularApp
+# Airbnb Clone with Angular 18 and Tailwind
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+A clone of Airbnb web platform using Angular 18 and Tailwind.
+Inspired by [Full Stack Airbnb Clone with Next.js 13 video tutorial from Code With Antonio](https://youtu.be/c_-b_isI4vg?si=i2JifFvtbevs_LRb).
 
-## Development server
+Thank you Antonio for sharing this content.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Setup and Run the Project
 
-## Code scaffolding
+To setup and run the project, run the following commands:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install
+ng serve
+```
 
-## Build
+Alternatively, you can also use yarn:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+yarn install
+ng serve
+```
 
-## Running unit tests
+You can also use the following commands to build and test the project:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng build
+ng test
+ng e2e
+```
 
-## Running end-to-end tests
+Note: Make sure you have Angular CLI installed globally on your machine. If not, you can install it using the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npm install -g @angular/cli
+```

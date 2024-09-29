@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@fontsource/nunito/index.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+html,
+body,
+app-root {
+    height: 100%;
+}
